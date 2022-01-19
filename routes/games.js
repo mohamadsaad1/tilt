@@ -14,8 +14,6 @@ router.post('/search', gameCtrl.search)
 // ========= Protected Routes ========= 
 router.use(decodeUserFromToken)
 router.post('/:id/collections/:category',checkAuth, gameCtrl.addToCollection)
-
-
 router.post('/:id/reviews', checkAuth, gameCtrl.createReview)
 
 

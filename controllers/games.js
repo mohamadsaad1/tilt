@@ -4,7 +4,6 @@ import { Review } from '../models/review.js'
 
 import axios from 'axios'
 
-
 const index = async (req, res) => {
   try {
     const BASE_URL = `https://api.rawg.io/api/games?page_size=200&genres=${req.query.genre}&key=${process.env.API_KEY}`
