@@ -11,8 +11,8 @@ const NavBar = ({ user, handleLogout }) => {
           <img id="logo"src="tilt.png" alt='logo'/>
           <Link to="/">HOME</Link>
           <Link to="/games">GAMES</Link>
-          <Link to="/profile">COLLECTION</Link>
           <Link to="/search">SEARCH</Link>
+          <Link to="/profile">COLLECTION</Link>
           
           {/* New post? */}
           {/* <Link to="/new">POSTS</Link> */}
@@ -24,6 +24,7 @@ const NavBar = ({ user, handleLogout }) => {
           <img id="logo" src="tilt.png" alt='logo'/> 
           <Link to="/">HOME</Link>
           <Link to="/games">GAMES</Link>
+          <Link to="/search">SEARCH</Link>
           <Link to="/login">SIGN IN</Link>
           <Link to="/signup">SIGN UP</Link>
         </nav>
