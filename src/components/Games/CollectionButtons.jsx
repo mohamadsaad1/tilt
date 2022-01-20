@@ -8,7 +8,6 @@ import '../../styles/DisplayInfo.css'
 
 
 const CollectionButtons = ({game}) => {
-  console.log(game)
   const gameId = game.game._id
   const handleCollection = async(e) => {
     await gameService.addToCollection(e.target.id, gameId)

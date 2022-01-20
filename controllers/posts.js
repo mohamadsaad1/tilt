@@ -5,7 +5,6 @@ const create = async (req, res) => {
   try {
     req.body.author = req.user.profile
     const post = await new Post(req.body)
-    console.log("HELLOOOO",req.body)
     await post.save()
     await Profile.updateOne(
       { _id: req.user.profile },

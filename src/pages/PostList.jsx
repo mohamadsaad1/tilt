@@ -31,7 +31,6 @@ const PostList = (props) => {
     return () => { setPosts([]) }
   }, [])
 
-  console.log(props.user)
   return (
     <div className="layout">
       <h1 className='poststitle'>Posts</h1>

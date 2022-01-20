@@ -4,7 +4,6 @@ import CollectionButtons from "./CollectionButtons";
 import Reviews from "./Reviews/Reviews"
 
 const DisplayInfo = (props) => {
-  console.log(props.game);
   const gameDescription = props.game.rawg.description_raw.split('.').slice(0,3).join('.').concat('.')
   const gameYear = props.game.rawg.released.split('-').slice(0,1)
   return (

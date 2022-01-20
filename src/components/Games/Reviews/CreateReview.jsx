@@ -5,7 +5,6 @@ import '../../../styles/DisplayInfo.css'
 
 
 const CreateReview = (props) => {
-  console.log(props)
 const [content, setContent] = useState('')
 const formData = {
   content: content

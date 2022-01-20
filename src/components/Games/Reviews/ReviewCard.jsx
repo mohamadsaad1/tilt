@@ -3,9 +3,6 @@ import '../../../styles/DisplayInfo.css'
 
 
 const ReviewCard = (props) => {
-  console.log('see me!', props.review)
-
-
 
   return ( 
     <div className="review-card">
