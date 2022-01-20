@@ -2,14 +2,12 @@
 .gameCard{
   width: 330px;
   height: 200px;
-  /* transition: transform 600ms; */
   width: 97%;
   border: 1px solid rgb(53, 50, 50);
   overflow: hidden;
   border-radius: 5px;
   object-fit: cover;
   text-align: center;
-
 }
 
 .gameCard img{
@@ -22,11 +20,6 @@
 
 .gameCard img:hover{
   transform: scale(1.2);
-}
-
-.image-container{
-  width: 330px;
-  height: 200px;
 }
 
 .gameCard p {
@@ -42,13 +35,4 @@
   padding-bottom: 2px;
   background-color: #00000073;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-
-}
-
-.collect {
-  color:rgb(190, 190, 190);
-  margin-top: 20px;
-  font-size: 27px;
-  margin-left: 30px;
-  font-weight: 600;
 }

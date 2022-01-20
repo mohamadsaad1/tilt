@@ -6,12 +6,13 @@ const SearchCard=(props) =>{
   const [hover, setHover] = useState(false)
   return(
 <div 
-    className='gameCard'
+    className="hover"
     onMouseEnter={()=>setHover(true)}
     onMouseLeave={()=>setHover(false)}
     >
-  <div className="wrapper">
-  <img className="game-image" src={props.game.background_image} alt='game' />
+  <div className="testt">
+  <img src={props.game.background_image} alt='game' />
+  {hover && <p>{props.game.name}</p>}
   </div>
 </div>
     
