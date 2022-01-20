@@ -59,6 +59,7 @@ import * as rawgService  from '../../services/rawgService'
         <Link to={`/games/${game.id}`}key={game.id}>
           <SearchCard
           game={game}
+          key={game.id}
           />
         </Link>
       ))}

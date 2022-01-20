@@ -10,11 +10,11 @@ const SearchCard=(props) =>{
     onMouseEnter={()=>setHover(true)}
     onMouseLeave={()=>setHover(false)}
     >
-  <div className="testt">
+  
+  { hover && <p>{props.game.name}</p>}
   <img src={props.game.background_image} alt='game' />
-  {hover && <p>{props.game.name}</p>}
   </div>
-</div>
+
     
   )
 }
