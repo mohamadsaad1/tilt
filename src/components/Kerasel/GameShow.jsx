@@ -9,7 +9,7 @@ const [hover, setHover] = useState(false)
     <div 
     className='gameCard'
     onMouseEnter={()=>setHover(true)}
-    onMouseLeave={()=>setHover(false)}
+    onMouseLeave={()=>setHover(false)} 
     >
       <div>
         {hover && <p>{game.name}</p>}
