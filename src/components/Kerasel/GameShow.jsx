@@ -13,7 +13,7 @@ const [hover, setHover] = useState(false)
     >
       <div>
         {hover && <p>{game.name}</p>}
-        <img src={game.background_image}alt='game' />
+        <img src={game.background_image} alt='game' />
       </div>
     </div>
 

@@ -42,6 +42,7 @@ import '../../styles/searchpage.css'
         <Link to={`/games/${game.id}`}key={game.id}>
           <SearchCard
           game={game}
+          key={game.id}
           />
         </Link>
       ))}
