@@ -6,7 +6,8 @@ import '../../styles/searchpage.css'
 
 
 
-  const GamesSearch= (props) => {
+
+  const GamesSearch= () => {
 
   const [games, setGames]= useState([])
   const [search, setSearch]= useState('')

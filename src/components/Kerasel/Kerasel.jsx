@@ -44,8 +44,7 @@ const Kerasel = ({genre}) => {
 
 return (
   
-  <div className='keraselContainer'>
-    
+  <div>
     <Carousel 
     ssr
     partialVisible
