@@ -11,7 +11,7 @@ const Landing = (props) => {
       <img className='banner-img' src='tilt.png' alt='banner-logo' />
       </div>
       <div className='subtitle-banner'>
-        <span className='placefor'>a social network for game lovers</span>
+        <span className='placefor'>A social network for game lovers</span>
       </div>
       <h4 className="genre-Title">action</h4>
       <Kerasel genre="action"/>
